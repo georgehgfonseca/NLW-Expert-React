@@ -10,9 +10,15 @@ Web app to listen to audio notes and save them as text.
 Init a vite project (requires NodeJS)
 ```npm create vite@latest```
 
-Tailwind as a CSS components library:
+Tailwind as a CSS styling and mapping library:
 ```npm install -D tailwindcss postcss autoprefixer```
 ```npx tailwindcss init -p```
+
+Radix as UI-component library
+```npm install @radix-ui/react-dialog```
+
+Date-formating library
+```npm install date-fns```
 
 
 # To run this project:
