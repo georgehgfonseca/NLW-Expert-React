@@ -20,6 +20,12 @@ Radix as UI-component library
 Date-formating library
 ```npm install date-fns```
 
+Icon library
+```npm install lucide-react```
+
+Toast messages library
+```npm iinstall sonner```
+
 
 # To run this project:
 
