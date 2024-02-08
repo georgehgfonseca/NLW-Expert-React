@@ -7,6 +7,7 @@ Web app to listen to audio notes and save them as text.
 - Tailwind
 - Radix UI
 - Speech recognition API
+- Responsiveness
 
 # Libraries and commands used in this project:
 
