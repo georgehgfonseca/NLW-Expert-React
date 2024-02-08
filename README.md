@@ -4,6 +4,9 @@ Web app to listen to audio notes and save them as text.
 # Concepts used in this project
 - React
 - Vite
+- Tailwind
+- Radix UI
+- Speech recognition API
 
 # Libraries and commands used in this project:
 
@@ -24,7 +27,10 @@ Icon library
 ```npm install lucide-react```
 
 Toast messages library
-```npm iinstall sonner```
+```npm install sonner```
+
+Typing for browser-native speech recognition API
+```npm i -D @types/dom-speech-recognition```
 
 
 # To run this project:
