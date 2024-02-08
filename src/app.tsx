@@ -43,7 +43,6 @@ export function App() {
         note.content.toLowerCase().includes(search.toLowerCase())
       )
     : notes;
-  setNotes(filteredNotes);
 
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6">
@@ -64,7 +63,7 @@ export function App() {
           title="Adicionar nota"
           content="Grave uma nota em áudio que será convertida para texto automaticamente."
         ></NewNoteCard>
-        {notes.map((note) => {
+        {filteredNotes.map((note) => {
           return <NoteCard key={note.id} note={note} />;
         })}
       </div>
